@@ -1,0 +1,103 @@
+body {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    background:black ;
+}
+.town {
+    background-image: url('https://i.redd.it/fohyyjfqgj961.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; /* Prevents repeating if the image doesn't cover the entire area */
+    background-position: center;  
+    background-color: #000;
+     height: 200px;
+    width:100%;
+    display: flex ;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    color: white;
+    align-items: center;
+    margin-bottom:10px;
+}
+h1 {
+    background: 2px rgba(0,0,0,0.6);
+    border-radius: 5px;
+    padding: 2px;
+    font-style: normal;
+    font-size: large;
+    text-align: center;
+    display: block;    
+}
+.description {
+    background: 2px rgba(0,0,0,0.6);
+    border-radius: 5px;
+    font-size: medium;
+    margin-top: 10px;
+    display: block;
+     text-align: center;
+    padding: 2px;
+    color: white;
+}
+h4 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-family:   monospace;
+    justify-content:center;
+    color:white ;
+}
+.picture {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+.pic {
+    border: 2px solid rgba(245, 245, 245, 0.753);
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+}
+.act, .dec {
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    margin: -10px 0;
+}
+.para {
+    font-size:small;
+   font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-right: 20px;
+    max-width: 500px;
+    margin-bottom:1px ;  
+}
+.kara {
+    font-size: xx-small;
+    max-width: 400px;
+    text-align: center;
+    margin: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.your {
+    border-bottom: 5px solid lightseagreen;
+    background-color: lightblue;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+     margin:20px 150px;  
+}
+#hijabi{
+    width:130px;
+    height:180px;
+    justify-content:left;
+    margin: 10px;
+}
+.text{
+    text-align:end;
+    margin:3px 10px;
+}
+.dara{
+    width:200px
+}
